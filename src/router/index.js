@@ -6,7 +6,8 @@ import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import {GetStarted, Home, Profile, Notification, Favorite } from "../screens"
 import { createMaterialBottomTabNavigator } from '@react-navigation/material-bottom-tabs';
 import BottomNavigator from '../components/molecules/BottomNavigator';
-
+import Categories from '../screens/Categories';
+import Detail from '../screens/Detail';
 
 
 const Tab = createMaterialBottomTabNavigator();
@@ -19,7 +20,7 @@ function MainApp(){
         <Tab.Screen 
             name="Home"  
             component={Home}
-            options={{headerShown: false}}
+            options = {{headerShown: false}}
         />
         <Tab.Screen  
             name="Favorite" 
@@ -51,10 +52,21 @@ const Router = () => {
               name="MainApp" 
               component={MainApp}  
               options={{headerShown: false}}/>
-        </Stack.Navigator>
-    )
-}
+          <Stack.Screen 
+              name = "Categories"
+              component = {Categories}
+              options ={{headerShown: false}}/>
+          <Stack.Screen 
+              name = "Detail"
+              component = {Detail}
+              options ={{headerShown: false }}
+          />
+      </Stack.Navigator>
+    );
+};
 
 
 export default Router;
 
+
+const styles = StyleSheet.create({});
