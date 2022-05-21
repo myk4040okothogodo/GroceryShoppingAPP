@@ -5,9 +5,9 @@ import Notification from "./Notification";
 import Favorite   from  "./Favorite";
 
 export {
-  GetStarted
-  Home
-  Profile
-  Notification
-  Favorite
+  GetStarted,
+  Home,
+  Profile,
+  Notification,
+  Favorite,
 };
