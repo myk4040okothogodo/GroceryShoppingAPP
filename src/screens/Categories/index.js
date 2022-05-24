@@ -110,7 +110,7 @@ const styles = StyleSheet.create({
   },
   tittle: {
     fontSize: 20,
-    fontFamily: fonts.SemiBold,
+    fontFamily: fonts.InterSemiBold,
     color: colors.primary,
   },
   sectionBoxTopProduct: {

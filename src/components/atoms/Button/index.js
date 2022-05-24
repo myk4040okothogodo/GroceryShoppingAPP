@@ -24,7 +24,7 @@ const styles = StyleSheet.create({
     },
     text : {
       fontSize: 18,
-      fontFamily: fonts.Medium,
+      fontFamily: fonts.InterMedium,
       color: colors.white,
       textAlign: 'center',
     },

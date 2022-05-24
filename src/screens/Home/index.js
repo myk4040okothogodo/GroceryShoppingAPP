@@ -189,7 +189,7 @@ const styles = StyleSheet.create({
   },
   titleCategories: {
     fontSize: 18,
-    fontFamily: fonts.SemiBold,
+    fontFamily: fonts.InterSemiBold,
     color: colors.primary,
     padding: 20,
   },
@@ -204,12 +204,12 @@ const styles = StyleSheet.create({
   },
   tittleTopProducts: {
     color: colors.primary,
-    fontFamily: fonts.SemiBold,
+    fontFamily: fonts.InterSemiBold,
     fontSize: 20,
   },
   textSeeAll: {
     color: colors.black,
-    fontFamily: fonts.Medium,
+    fontFamily: fonts.InterMedium,
     fontSize: 12,
   },
   sectionBoxTopProduct: {

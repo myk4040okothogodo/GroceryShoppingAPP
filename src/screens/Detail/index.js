@@ -139,11 +139,11 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
   },
   name: {
-    fontFamily: fonts.SemiBold,
+    fontFamily: fonts.InterSemiBold,
     fontSize: 20,
   },
   price: {
-    fontFamily: fonts.Regular,
+    fontFamily: fonts.InterRegular,
     fontSize: 14,
     color: colors.black,
   },
@@ -154,7 +154,7 @@ const styles = StyleSheet.create({
     marginTop: 25,
   },
   titleRelatedItems: {
-    fontFamily: fonts.SemiBold,
+    fontFamily: fonts.InterSemiBold,
     fontSize: 14,
     color: colors.primary,
     paddingHorizontal: 20,

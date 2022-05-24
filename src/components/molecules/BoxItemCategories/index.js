@@ -31,6 +31,6 @@ const styles = StyleSheet.create({
     marginTop: 10,
     color: colors.darkGreen,
     fontSize: 14,
-    fontFamily: fonts.SemiBold,
+    fontFamily: fonts.InterSemiBold,
   },
 });

@@ -31,6 +31,6 @@ const styles = StyleSheet.create({
         fontSize : 30,
         color: colors.primary,
         textAlign: 'center',
-        fontFamily: fonts.SemiBold,
+        fontFamily: fonts.InterSemiBold,
     },
 });

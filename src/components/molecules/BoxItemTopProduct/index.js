@@ -1,6 +1,6 @@
 import React from 'react';
 import {Image, StyleSheet, Text, TouchableOpacity, View} from 'react-native';
-import {Gap} from '../..';
+import {Gap} from '../../atoms';
 import {fonts, IC_Love} from '../../../res';
 
 const BoxItemTopProduct = ({bgColor, icon, text, price, onPress}) => {
@@ -38,7 +38,7 @@ const styles = StyleSheet.create({
   text: {
     paddingLeft: 10,
     fontSize: 16,
-    fontFamily: fonts.Medium,
+    fontFamily: fonts.InterMedium,
   },
   price: {
     flexDirection: 'row',
@@ -47,7 +47,7 @@ const styles = StyleSheet.create({
   },
   wrapperButtom: {
     fontSize: 18,
-    fontFamily: fonts.Medium,
+    fontFamily: fonts.InterMedium,
   },
   image: {
     height: 110,
